@@ -1,0 +1,167 @@
+
+
+html, body {
+    background-color: #f2f2f2;
+    max-width: 960px;
+    max-height:  100vh;
+    margin: auto;
+    font-family: Arial;
+    font-size: 15px;
+  }
+
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cccccc;
+  width: 100%;
+}
+
+.navBar li {
+  float: left;
+}
+
+
+.active {
+  font-weight: bold;
+}
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+    
+h2 {
+    font-size: 20px;
+  }
+
+h3 {
+  font-size: 17px;
+}
+
+h4 {
+  font-size:  14px;
+  font-style:  italic;
+  line-height:  0.1em;
+}
+  
+.mainBit{
+    max-width: 960px;
+  }
+  
+  /*NOTE: use a different version of .col1 for each page because the length needs to be different depending on the content.
+  height: 100vh means height will be 800px (the height of the screen of the device), so it won't adapt to new content. */
+    
+.col1 {
+    float: left;
+    height: 615px;
+    width: 25%;
+    background-color: #0077b3;
+    padding: 1%;
+    color: white;
+    font-size: 16px;
+    font-family:  Georgia;
+    color:  #e6e6e6;
+  }
+    
+.col2 {
+    float: left;
+    padding: 1%;
+    background-color: white;
+    min-height: 615px;
+    width: 71%;
+    line-height: 1.4em;
+    overflow:  visible;
+  }
+
+  /* for projects page */
+.col1projects {
+    float: left;
+    height: 700px;
+    width: 25%;
+    background-color: #0077b3;
+    padding: 1%;
+    color: white;
+    font-size: 16px;
+    font-family:  Georgia;
+    color:  #e6e6e6;
+  }
+    
+.col2projects {
+    float: left;
+    padding: 1%;
+    background-color: white;
+    min-height: 700px;
+    width: 71%;
+    line-height: 1.4em;
+    overflow:  visible;
+  }
+
+/* For publications page */
+.col1pubs {
+    float: left;
+    height: 600px;
+    width: 25%;
+    background-color: #0077b3;
+    padding: 1%;
+    color: white;
+    font-size: 16px;
+    font-family:  Georgia;
+    color:  #e6e6e6;
+  }
+    
+.col2pubs {
+    float: left;
+    padding: 1%;
+    background-color: white;
+    min-height: 600px;
+    max-width: 71%;
+    line-height: 1.4em;
+    overflow:  visible;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+ 
+.contactButtons {
+  text-align: center;
+}   
+
+
+/* for publications */
+.pubs {
+  line-height: 1.4em;
+  font-size: 15px;
+}
+
+.pubs li:not(:last-child) {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.projectImage {
+  float: left;
+  padding:  2px;
+}
+
+code {
+  display:  block;
+  background:  lightgray;
+  color:  darkmagenta;
+}
+
+.year {
+  font-size: 14px;
+}
